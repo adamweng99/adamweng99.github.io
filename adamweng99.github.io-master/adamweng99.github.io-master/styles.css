@@ -1,0 +1,129 @@
+/* root */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+#header {
+  background-color: #fca311;
+  padding: 2.5rem;
+  position: relative;
+}
+
+.container {
+}
+
+#header-title {
+  font-family: "Share Tech Mono", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #14213d;
+  text-decoration: none;
+}
+
+#header-nav {
+  display: flex;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  list-style: none;
+}
+
+#header li a {
+  margin: 0 3rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#header li a:hover {
+  color: #e9e3e3;
+}
+
+#content {
+  font-size: 1.8rem;
+  margin: 4rem auto;
+}
+
+.post-container {
+  background-color: #e5e5e5;
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+
+.post-author {
+}
+
+.post-author img {
+  width: 10rem;
+  border-radius: 100px;
+}
+
+span {
+  font-size: 2rem;
+}
+
+.mimo {
+  color: #fca311;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footer {
+  background-color: #000000;
+  padding: 6rem;
+}
+
+#footer .container {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h4 {
+  color: #fca311;
+  font-size: 1.8rem;
+}
+
+.column {
+  font-size: 1.6rem;
+  color: #ffffff;
+  width: 50%;
+  margin: 0rem 5rem;
+}
+
+.column a {
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.column a:hover {
+  color: #e9e3e3;
+}
+
+.column:first-of-type {
+  border-right: 1px solid #fca311;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-author img {
+  width: 30rem;
+  border-radius: 50%;
+}
